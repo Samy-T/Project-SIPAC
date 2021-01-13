@@ -1,0 +1,25 @@
+
+body {
+    background-color:RGB(42,42,42);
+    color: white;
+    font: 14px sans-serif;
+
+}
+
+body #back {
+    margin-top: 1em;
+    margin-left: 1em;
+    font: 15px sans-serif;
+}
+
+body #wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+}
+
+body #wrapper #form_reservation {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+}

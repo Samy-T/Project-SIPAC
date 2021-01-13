@@ -1,0 +1,385 @@
+html {
+    background-color:RGB(42,42,42);
+}
+
+body {
+    background-color:RGB(42,42,42);
+    margin:auto;
+    width:1100px;
+}
+
+.dropbtn {
+    background-color: #508cff;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius:30px/30px;
+    border: none;
+    outline: none;
+    margin-right: 0.3cm;
+    margin-left: 0.3cm;
+    margin-bottom: 0.3cm;
+    width:10em;
+    font-family: Arial;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    border-radius:30px/30px;
+    display: none;
+    padding: 10px;
+    font-size: 18px;
+    position: absolute;
+    background-color: #508cff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width:10em;
+    font-family: Arial;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: #0659af;
+    border-radius:30px/30px;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropbtn:hover {
+    background: #0659af;
+    color: white;
+}
+
+
+/*............... Submenu ......................*/
+
+.subdropbtn {
+    background-color: #508cff;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius:30px/30px;
+    border: none;
+    outline: none;
+    margin-right: 0.3cm;
+    margin-left: 0.3cm;
+    margin-bottom: 0.3cm;
+
+}
+
+.subdropdown {
+    position: relative;
+    display: inline-block;
+    width:10em;
+}
+
+.dropdown-subcontent {
+    border-radius:30px/30px;
+    display: none;
+    padding: 10px;
+    font-size: 18px;
+    position: absolute;
+    background-color: #508cff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+.dropdown-subcontent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-subcontent a:hover {
+    background: #0659af;
+    color: white;
+}
+
+.subdropdown:hover .dropdown-subcontent {
+    display: block;
+}
+
+
+.subdropbtn:hover {
+    background: #0659af;
+    color: white;
+}
+
+#MenuBar {
+    background-color:RGB(42,42,42);
+    position:fixed;
+    z-index:10;
+    width:1100px;
+    display:inline;
+}
+
+.Login ul {
+    text-align: right;
+    list-style-type: none;
+    font-size:20px;
+    color: white;
+}
+
+.Login ul li {
+    display:inline;
+    font-family: Berlin Sans FB;
+}
+
+.Login ul a {
+    text-decoration: none;
+    color:white;
+}
+
+.Login ul a:hover {
+    text-decoration:underline;
+    color:greenyellow;
+}
+
+.Login ul a:focus {
+    text-decoration:underline;
+    color:greenyellow;
+}
+
+#Menu .stemaRO {
+    width:50px;
+    height:70px;
+    margin-left:-1cm;
+}
+
+
+#Menu .stemaCS {
+    width:60px;
+    height:80px;
+    margin-right:-1cm;
+}
+
+#main-content {
+    z-index:1;
+    padding-top: 7em;
+}
+
+#main-content #container {
+    margin-top: 1cm;
+}
+
+#main-content #container .Title1 {
+    position:static;
+    font-family:Berlin Sans FB, Times New Roman;
+    font-size:18pt;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+#main-content #container .slide {
+    height:15cm;
+    position:static;
+    background-image:url("../images/Eftimie-Murgu1.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    border:3px solid black;
+    margin-top: -2em;
+    margin-bottom: -2em;
+}
+
+#main-content #container .Title2 {
+    position:static;
+    font-family:Times New Roman;
+    font-size:15pt;
+    color:white;
+    width:100%;
+    background-color: black;
+    text-align: center;
+    }
+
+#main-content #container .Content0 {
+    border:3px solid black;
+    background:linear-gradient(to bottom, RGB(31,72,148), RGB(4,153,68), RGB(4,116,153));
+    border-radius:10px/10px;
+    font-family:Times New Roman;
+    font-size:25px;
+    text-align:justify;
+    padding:1cm;
+    color:white;
+    margin-top: -1em;
+}
+
+#main-content #container .Content0 .links {
+    text-align: center;
+    color: white;
+}
+
+
+#main-content #container .Content0 .links a {
+    text-decoration: none;
+    color:white;
+}
+
+
+#main-content #container .Content0 .links a:hover {
+    text-decoration:underline;
+    color:greenyellow;
+}
+
+
+#main-content #container .Content0 .paragraf .alineat {
+    padding-left: 1.5cm;
+}
+
+#main-content #container #Content1 {
+    background-color: rgb(188, 222, 255);
+    margin-top: 2em;
+    opacity:0.9;
+    border-radius:10px/10px;
+    padding-top: 1em;
+    padding-left:3em;
+    padding-right:3em;
+    padding-bottom: 3em;
+}
+
+#main-content #container #Content1 h1 {
+    font-family:Gabriola, Times New Roman;
+    font-size:70px;
+    text-align:center;
+}
+
+#main-content #container #Content1 .paragraf {
+    font-family:Times New Roman;
+    font-size:25px;
+
+    text-align:justify;
+}
+
+#main-content #container #Content1 .imageObiective {
+    border:5px outset RGB(79,31,2);
+    width:750px;
+}
+
+#main-content #container #Content1 .imageInfo {
+    border:5px outset RGB(79,31,2);
+    width: 600px;
+}
+
+#main-content #container #Content1 .imageGalerie {
+    border:5px outset RGB(79,31,2);
+    width:15cm;
+}
+
+#main-content #container #Content1 .paragraf .alineat {
+    padding-left: 1.5cm;
+}
+
+#main-content #container .form {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+}
+
+#main-content #container .form .form1 {
+
+}
+
+#main-content #container .form .form2 {
+
+}
+
+#main-content #container .Content0 .Login {
+    padding-top: 2em;
+}
+
+/*....................FancyBox...............*/
+.fancybox-custom .fancybox-skin {
+    box-shadow: 0 0 50px #222;
+}
+
+#fancybox-thumbs {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 8050;
+}
+
+#fancybox-thumbs.bottom {
+    bottom: 2px;
+}
+
+#fancybox-thumbs.top {
+    top: 2px;
+}
+
+#fancybox-thumbs ul {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#fancybox-thumbs ul li {
+    float: left;
+    padding: 1px;
+    opacity: 0.5;
+}
+
+#fancybox-thumbs ul li.active {
+    opacity: 0.75;
+    padding: 0;
+    border: 1px solid #fff;
+}
+
+#fancybox-thumbs ul li:hover {
+    opacity: 1;
+}
+
+#fancybox-thumbs ul li a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #222;
+    background: #111;
+    outline: none;
+}
+
+#fancybox-thumbs ul li img {
+    display: block;
+    position: relative;
+    border: 0;
+    padding: 0;
+    max-width: none;
+}
+footer {
+    border:1px solid black;
+    margin-top: 1.5em;
+    margin-bottom:0.1cm;
+    background:linear-gradient(to left, black,lightblue,black);
+    text-align:center;
+    font-family:Arial Black;
+    font-size:15px;
+    padding:0.2cm;
+}
